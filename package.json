@@ -1,0 +1,17 @@
+{
+  "name": "yap-fantasy-football",
+  "version": "1.0.0",
+  "description": "Fantasy football card collection game with performance-based rarity system",
+  "scripts": {
+    "dev": "concurrently \"cd yap-fantasy-backend && npm run dev\" \"cd yap-fantasy-frontend && npm run dev\"",
+    "dev:backend": "cd yap-fantasy-backend && npm run dev",
+    "dev:frontend": "cd yap-fantasy-frontend && npm run dev",
+    "install:all": "cd yap-fantasy-backend && npm install && cd ../yap-fantasy-frontend && npm install"
+  },
+  "keywords": ["fantasy-football", "card-collection", "nfl"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

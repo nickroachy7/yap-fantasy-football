@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp?project_ref=YOUR_PROJECT_REF",
+      "headers": {}
+    },
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer YOUR_GITHUB_TOKEN"
+      }
+    },
+    "balldontlie-api": {
+      "url": "https://mcp.balldontlie.io/mcp",
+      "transport": "http",
+      "headers": {
+        "Authorization": "YOUR_BALLDONTLIE_API_KEY"
+      }
+    }
+  }
+}
